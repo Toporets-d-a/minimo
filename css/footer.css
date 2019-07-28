@@ -1,0 +1,26 @@
+.footer {
+    height: 100px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_footer_content {
+    color: #555;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    margin-left: 226px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_footer_content {
+    color: #777;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    margin-right: 186px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}

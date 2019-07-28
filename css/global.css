@@ -1,0 +1,29 @@
+body {
+    font-family: "Ubuntu", "Playfair_Display";
+    margin: 0px;
+}
+
+.page {
+    padding: 158px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;   
+}
+
+.content {
+    padding-left: 68px;
+    padding-right: 28px;
+}
+
+h3 {
+    font-family: "Ubuntu";
+    color: #444;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+h5 {
+    color: #ccc;
+}

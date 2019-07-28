@@ -1,0 +1,19 @@
+.header {
+    background-color: #eee;
+    height: 670px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 124px;
+    background-color: blue;
+}
+
+.menu a {
+    margin-left: 100px;
+    color: #777;
+}
