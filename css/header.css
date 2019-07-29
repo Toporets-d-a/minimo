@@ -1,19 +1,19 @@
 .header {
-    background-color: #eee;
-    height: 670px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
+.logo {
+    display: inline-block;
+    margin-right: auto;
 }
 
 .logo img {
     width: 124px;
-    background-color: blue;
 }
 
-.menu a {
-    margin-left: 100px;
+.header a {
+    margin-left: 80px;
     color: #777;
 }

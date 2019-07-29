@@ -1,0 +1,49 @@
+.posts {
+    height: 880px;
+    display: inline-block;
+    margin: 0 7.5%;
+}
+
+.last_posts {
+    display: flef;
+    margin: 0 7.5%;
+    justify-content: space-between
+}
+
+.post {
+    float: left;
+    width: 50%;
+}
+
+.post img {
+    width: 420px;
+    height: 280px;
+}
+
+.post p {
+    max-width: 420px;
+    color: #777;
+}
+
+.post a {
+    color: #777;
+    font-family: "Playfair_Display";
+    color: #444;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.posts_button {
+    margin-top: 70px;
+    margin-bottom: 90px;
+    margin-left: 42%;
+    width: 16%;
+    height: 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0%);
+    color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+    cursor: pointer;
+    font-family: "Playfair_Display";
+}

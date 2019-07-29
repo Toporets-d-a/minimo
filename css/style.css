@@ -1,7 +1,7 @@
 @import url(global.css);
 @import url(header.css);
-@import url(photodiary.css);
-@import url(links.css);
+@import url(main_post.css);
+@import url(posts.css);
 @import url(sign_up.css);
 @import url(last_links.css);
 @import url(footer.css);
