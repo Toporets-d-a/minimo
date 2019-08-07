@@ -1,0 +1,21 @@
+.header {
+    margin-top: 50px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 124px;
+}
+
+.header a {
+    margin-left: 80px;
+    color: #777;
+}
+
+.header img {
+    width: 1060px;
+}
