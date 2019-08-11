@@ -1,0 +1,15 @@
+.content {
+    width: 75%;
+    padding-right: 5%;
+}
+
+.quote {
+    color: #5c5c5c;
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.content img {
+    width: 100%;
+    margin: 40px 0;
+}

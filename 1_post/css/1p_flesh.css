@@ -1,0 +1,44 @@
+.flesh {
+    width: 25%;
+}
+
+.flesh .f_share {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flesh .f_share a {
+    margin-right: 16px;
+    color: #b8b5ae;
+    font-size: 12px;
+}
+
+.flesh img {
+    margin-bottom: 8px;
+}
+
+.flesh h3 {
+    margin: 16px 0;
+}
+
+.top_posts h5 {
+    font-weight: 400;
+    height: 10px;
+}
+
+.top_posts .comments {
+    height: 6px;
+}
+
+.top_posts p {
+    margin: 0;
+}
+
+.top_posts li {
+    margin-bottom: 24px;
+}
+
+.top_posts ul {
+    margin-bottom: 62px;
+}
