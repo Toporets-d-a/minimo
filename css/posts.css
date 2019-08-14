@@ -33,6 +33,7 @@
 }
 
 .posts_button {
+    outline: none;
     margin-top: 70px;
     margin-bottom: 90px;
     margin-left: 42%;
