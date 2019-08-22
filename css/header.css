@@ -14,10 +14,68 @@
 }
 
 .header a {
-    margin-left: 80px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
     color: #777;
+    transition: all 0.5s ease;
 }
 
 .main_photo {
     margin-bottom: 78px;
+}
+
+.header ul {
+    list-style: none;
+}
+.header > ul li a {
+    display: block;
+}
+
+.header li {
+    display: block;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+}
+
+.header li a:hover {
+    background-color: #777;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.header li ul {
+    position: absolute;
+    padding-left: 0;
+    display: none;
+}
+
+.header li ul a {
+    padding: 12px;
+}
+
+.lifestyle {
+    min-width: 160px;
+}
+
+.photodiary {
+    min-width: 180px;
+}
+
+.header li ul li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.header li ul li:first-child {
+    border-top: 1px solid #ccc; 
+}
+
+.header li:hover ul {
+    display: block;
 }
