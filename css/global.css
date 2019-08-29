@@ -2,6 +2,7 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0px;
     position: relative;
+    font-size: 10px;
 }
 
 .page {
@@ -32,6 +33,6 @@ h5 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 1.4em;
     line-height: 24px;
 }
