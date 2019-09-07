@@ -16,4 +16,9 @@
 
 .main_post img {
     width: 1060px;
+    margin-bottom: 100px;
+}
+
+.main_post h5 {
+    font-size: 15px;
 }

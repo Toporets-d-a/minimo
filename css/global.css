@@ -10,11 +10,17 @@ body {
     margin: 0 auto;
 }
 
+.anoser_page {
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .main_page {
     display: flex;
 }
 
 a {
+    font-size: 1.6em;
     text-decoration: none;
     color: #333;   
 }
@@ -23,7 +29,7 @@ h3 {
     font-family: "Ubuntu", sans-serif;
     color: #444;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 2.8em;
 }
 
 h5 {
@@ -35,4 +41,8 @@ h5 {
 p {
     font-size: 1.4em;
     line-height: 24px;
+}
+
+span {
+    font-weight: bold;
 }
