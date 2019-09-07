@@ -23,6 +23,8 @@
     width: 90%;
 }
 
-.anoser_post h4 {
+.anoser_post h3 {
     color: #5d5d5d;
+    font-size: 25px;
+    font-weight: 400;
 }
