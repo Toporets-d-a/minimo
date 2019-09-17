@@ -6,10 +6,15 @@
 .quote {
     color: #5c5c5c;
     font-style: oblique;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 .content img {
     width: 100%;
     margin: 40px 0;
+}
+
+.content h5 {
+    margin-top: 0px;
+    font-weight: 200;
 }

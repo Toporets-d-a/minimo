@@ -2,7 +2,7 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0px;
     position: relative;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .page {
@@ -10,38 +10,41 @@ body {
     margin: 0 auto;
 }
 
-.anoser_page {
-    width: 110%;
-}
 
 .main_page {
     display: flex;
 }
 
-a {
+a { 
     font-size: 1.6em;
     text-decoration: none;
     color: #333;   
 }
 
 h3 {
-    font-family: "Ubuntu", sans-serif;
-    color: #444;
-    font-weight: 300;
-    font-size: 2.8em;
+    font-family: 'Playfair Display', serif;
+    color: #777;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
 h5 {
-    color: #ccc;
+    color: #bbb;
     font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
     font-weight: 100;
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1rem;
     line-height: 24px;
+    color: #222;
 }
 
 span {
     font-weight: bold;
+}
+
+input {
+    font-family: 'Playfair Display', serif;  
 }
