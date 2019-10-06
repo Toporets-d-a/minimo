@@ -1,20 +1,124 @@
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .header {
+        margin-left: 5%;
+    }
+
+    .main_post img {
+        margin-left: 5%;
+    }
+
     .menu li {
         display: none;
     }
 
     .burger-icon {
         font-size: 30px;
-        margin-right: 40px;
+    }
+
+    .burger-icon menu {
+        disdlay: none;
+    }
+
+    .burger-icon button {
+        font-size: 30px;
+        font: inherit;
+        padding: 0;
+        border: none;
+        color: inherit;
+        background-color: transparent;
+        outline: 0;
+    }
+
+    .burger-icon:checked menu {
+        display: block;
+    }
+
+    .post {
+        float: none;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
+    }
+
+    .post img {
+        width: 840px;
+        height: 560px;
+    }
+
+    .post h5 {
+        font-size: 50px; 
+    }
+
+    .post a {
+        font-size: 3.2rem;
+    }
+
+    .post p {
+        font-size: 2rem;
+        max-width: 840px;
+        line-height: 48px;
+        margin-bottom: 50px;
     }
 }
 
 @media screen and (min-width: 1200px) {
+    
     .burger-icon {
         display: none;
     }
+    
+.posts {
+    height: 880px;
+    display: inline-block;
+    margin: 0 7.5%;
+    margin-top: 100px;
+    padding-bottom: 125px;
+}
 
-    .menu li {
-        display: flex;
-    }
+.last_posts {
+    display: flef;
+    margin: 0 7.5%;
+    justify-content: space-between;
+}
+
+.post {
+    float: left;
+    width: 50%;
+}
+
+.post img {
+    width: 420px;
+    height: 280px;
+}
+
+.post p {
+    max-width: 420px;
+}
+
+.post a {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.posts_button {
+    outline: none;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    margin-left: 42%;
+    width: 16%;
+    height: 60px;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0%);
+    color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+    cursor: pointer;
+    font-family: inherit;
+}
+
 }
