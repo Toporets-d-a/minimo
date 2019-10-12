@@ -1,7 +1,8 @@
 
 .footer {
-    height: 100px;
+    min-height: 100px;
     background-color: #f3f3f3;
+    min-width: 100%;
 }
 
 .footer .content {
