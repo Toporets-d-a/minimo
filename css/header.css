@@ -41,7 +41,7 @@
     display: block;
 }
 
-.header > ul {
+.header ul {
     display: flex;
     margin: 0;
 }
@@ -82,8 +82,4 @@
 
 .header li:hover ul {
     display: block;
-}
-
-.burger-icon {
-    display: none;
 }
