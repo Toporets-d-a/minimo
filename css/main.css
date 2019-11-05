@@ -15,32 +15,53 @@ body {
     display: flex;
 }
 
-a { 
-    font-size: 1.6em;
-    text-decoration: none;
-    color: #333;   
+@media screen and (min-width: 0px ) {
+    a { 
+        font-size: 3.2em;
+        text-decoration: none;
+        color: #333;   
+    }
+
+    h3 {
+        font-family: 'Playfair Display', serif;
+        color: #777;
+        font-weight: 400;
+        font-size: 3.6rem;
+    }
+
+    h5 {
+        color: #bbb;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+    p {
+        font-size: 2rem;
+        line-height: 36px;
+        color: #222;
+    }
 }
 
-h3 {
-    font-family: 'Playfair Display', serif;
-    color: #777;
-    font-weight: 400;
-    font-size: 1.8rem;
-}
-
-h5 {
-    color: #bbb;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 1rem;
-    font-weight: 100;
-}
-
-p {
-    font-size: 1rem;
-    line-height: 24px;
-    color: #222;
-}
-
+@media screen and (min-width: 1000px ) {
+    a { 
+        font-size: 1.6em;  
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    }
+    
 span {
     font-weight: bold;
 }
@@ -57,19 +78,39 @@ Header
 */
 
 
+.main_photo {
+    margin-bottom: 78px;
+}
+
+@media screen and (min-width: 0px ) {
 .header {
     display: flex;
-    justify-content: flex-end;
     margin-top: 50px;
 }
 
+.header > ul {
+    display: none;
+}
 .logo {
     display: inline-block;
+    margin-left: 50px;
+}
+.logo img {
+    width: 250px;
+}
+}
+
+@media screen and (min-width: 1000px ) {
+.logo {
     margin-right: auto;
 }
 
+.header {
+    justify-content: flex-end;
+}
+
 .logo img {
-    width: 124px;
+    width: 125px;
 }
 
 .header a {
@@ -80,10 +121,6 @@ Header
     padding-right: 40px;
     color: #777;
     transition: all 0.5s ease;
-}
-
-.main_photo {
-    margin-bottom: 78px;
 }
 
 .header ul {
@@ -140,6 +177,7 @@ Header
 .header li:hover ul {
     display: block;
 }
+}
 
 /*
 
@@ -155,8 +193,17 @@ Posts
     margin: 0 7.5%;
 }
 
-.comment {
-    margin: 50px 0;
+@media screen and (min-width: 0px ) {
+    .comment {
+        margin-top: 50px;
+        margin-bottom: 150px;
+}
+}
+
+@media screen and (min-width: 1000px ) {
+    .comment {
+        margin: 50px 0;
+    }
 }
 
 .main_post img {
@@ -164,26 +211,87 @@ Posts
     margin-bottom: 50px;
 }
 
-
-.posts {
-    height: 880px;
-    display: inline-block;
-    margin: 0 7.5%;
-    margin-top: 100px;
-    padding-bottom: 125px;
-}
-
 .last_posts {
-    display: flef;
+    display: flex;
     margin: 0 7.5%;
     justify-content: space-between;
 }
+@media screen and (min-width: 0px ) {
+    .posts {
+        height: 4800px;
+        display: block;
+        margin: 0 7.5%;
+        margin-top: 100px;
+        padding-bottom: 125px;
+    }
 
-.post {
-    float: left;
-    width: 50%;
+    .post {
+        width: 100%;
+    }
+
+    .post img {
+    width: 100%;
+    }
+
+    .post p {
+        margin-bottom: 250px;
+    }
+
+    .post a {
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .posts_button {
+        outline: none;
+        margin: 75px auto;
+        width: 300px;
+        height: 120px;
+        font-size: 3rem;
+        background-color: rgba(0, 0, 0, 0%);
+        color: #5d5d5d;
+        border: 1px solid #5d5d5d;
+        cursor: pointer;
+        font-family: inherit;
+    }
 }
 
+@media screen and (min-width: 1000px ) {
+    .posts {
+        height: 1100px;
+        display: inline-block;
+        margin: 0 7.5%;
+        margin-top: 100px;
+        padding-bottom: 125px;
+    }
+
+    .post {
+        float: left;
+        width: 50%;
+    }
+.post img {
+    width: 420px;
+    height: 280px;
+}
+
+.post p {
+    max-width: 420px;
+    margin-bottom: 100px;
+}
+
+.post a {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.posts_button {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    margin-left: 42%;
+    width: 16%;
+    height: 60px;
+    font-size: 1.5rem;
+}
 .post img {
     width: 420px;
     height: 280px;
@@ -211,6 +319,7 @@ Posts
     border: 1px solid #5d5d5d;
     cursor: pointer;
     font-family: inherit;
+}
 }
 
 /*
