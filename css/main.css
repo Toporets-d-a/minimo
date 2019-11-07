@@ -4,71 +4,49 @@ body {
     position: relative;
     font-size: 14px;
 }
-
+@media screen and (min-width: 0px) {
 .page {
-    width: 1060px;
+    width: 440px;
     margin: 0 auto;
 }
+}
 
+@media screen and (min-width: 1000px) {
+.page {
+    width: 1060px;
+}
+}
 
 .main_page {
     display: flex;
 }
 
-@media screen and (min-width: 0px ) {
-    a { 
-        font-size: 3.2em;
-        text-decoration: none;
-        color: #333;   
-    }
-
-    h3 {
-        font-family: 'Playfair Display', serif;
-        color: #777;
-        font-weight: 400;
-        font-size: 3.6rem;
-    }
-
-    h5 {
-        color: #bbb;
-        font-family: "Ubuntu", sans-serif;
-        font-size: 2rem;
-        font-weight: 100;
-    }
-
-    p {
-        font-size: 2rem;
-        line-height: 36px;
-        color: #222;
-    }
+a { 
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #333;   
 }
 
-@media screen and (min-width: 1000px ) {
-    a { 
-        font-size: 1.6em;  
-    }
-    
-    h3 {
-        font-size: 1.8rem;
-    }
-    
-    h5 {
-        font-size: 1rem;
-    }
-    
-    p {
-        font-size: 1rem;
-        line-height: 24px;
-    }
-    }
-    
-span {
-    font-weight: bold;
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #777;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
-input {
-    font-family: 'Playfair Display', serif;  
+h5 {
+    color: #bbb;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
 }
+
+p {
+    font-size: 1rem;
+    line-height: 24px;
+    color: #222;
+}
+
 
 
 /*
@@ -93,23 +71,23 @@ Header
 }
 .logo {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 .logo img {
-    width: 250px;
+    width: 200px;
 }
 }
 
 @media screen and (min-width: 1000px ) {
 .logo {
-    margin-right: auto;
+    margin-right: 285px;
 }
 
 .header {
     justify-content: flex-end;
 }
 
-.logo img {
+.logo img { 
     width: 125px;
 }
 
@@ -179,6 +157,7 @@ Header
 }
 }
 
+
 /*
 
 Posts
@@ -194,31 +173,39 @@ Posts
 }
 
 @media screen and (min-width: 0px ) {
-    .comment {
-        margin-top: 50px;
-        margin-bottom: 150px;
+.comment {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.main_post img {
+    width: 100%;
+    margin: 0;
+}
+
+.last_posts {
+    margin: 0 7.5%;
+    justify-content: space-between;
 }
 }
 
 @media screen and (min-width: 1000px ) {
-    .comment {
-        margin: 50px 0;
-    }
+.comment {
+    margin: 50px 0;
 }
 
 .main_post img {
-    width: 1060px;
     margin-bottom: 50px;
 }
 
 .last_posts {
     display: flex;
-    margin: 0 7.5%;
-    justify-content: space-between;
 }
+}
+
 @media screen and (min-width: 0px ) {
     .posts {
-        height: 4800px;
+        height: 2100px;
         display: block;
         margin: 0 7.5%;
         margin-top: 100px;
@@ -234,7 +221,7 @@ Posts
     }
 
     .post p {
-        margin-bottom: 250px;
+        margin-bottom: 100px;
     }
 
     .post a {
@@ -244,7 +231,8 @@ Posts
 
     .posts_button {
         outline: none;
-        margin: 75px auto;
+        margin-left: 17.5%;
+        margin-bottom: 75px;
         width: 300px;
         height: 120px;
         font-size: 3rem;
@@ -257,18 +245,19 @@ Posts
 }
 
 @media screen and (min-width: 1000px ) {
-    .posts {
-        height: 1100px;
-        display: inline-block;
-        margin: 0 7.5%;
-        margin-top: 100px;
-        padding-bottom: 125px;
-    }
+.posts {
+    height: 1100px;
+    display: inline-block;
+    margin: 0 7.5%;
+    margin-top: 100px;
+    padding-bottom: 125px;
+}
 
-    .post {
-        float: left;
-        width: 50%;
-    }
+.post {
+    float: left;
+    width: 50%;
+}
+
 .post img {
     width: 420px;
     height: 280px;
@@ -285,40 +274,11 @@ Posts
 }
 
 .posts_button {
-    margin-top: 100px;
+    margin: auto 42.5%;
     margin-bottom: 75px;
-    margin-left: 42%;
     width: 16%;
     height: 60px;
     font-size: 1.5rem;
-}
-.post img {
-    width: 420px;
-    height: 280px;
-}
-
-.post p {
-    max-width: 420px;
-}
-
-.post a {
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-.posts_button {
-    outline: none;
-    margin-top: 100px;
-    margin-bottom: 75px;
-    margin-left: 42%;
-    width: 16%;
-    height: 60px;
-    font-size: 1.5rem;
-    background-color: rgba(0, 0, 0, 0%);
-    color: #5d5d5d;
-    border: 1px solid #5d5d5d;
-    cursor: pointer;
-    font-family: inherit;
 }
 }
 
@@ -386,28 +346,58 @@ Footer
 
 .footer .content {
     width: 75%;
+    height: 100px;
     margin: 0 12.5%;
     display: flex;
     justify-content: space-between;
-
 }
 
+@media screen and (min-width: 0px) {
 .left_footer_content {
-    color: #555;
     margin-top: 41px;
     margin-bottom: 41px;
+    color: #555;
+    width: 200px;
+}
+
+.right_footer_content {
+    color: #777;
+    width: 100px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.footer .content {
+    width: 90%;
+    height: 100px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.left_footer_content {
     width: 230px;
+    margin-top: 41px;
+    margin-bottom: 41px;
     display: flex;
     justify-content: space-between;
 }
 
 .right_footer_content {
-    color: #777;
+    width: 160px;
     margin-top: 41px;
     margin-bottom: 41px;
-    width: 160px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer .content {
+    width: 75%;
+    height: 100px;
+    margin: 0 12.5%;
+}
 }
 
 .footer a {
