@@ -71,10 +71,51 @@ Header
 }
 .logo {
     display: inline-block;
-    margin-left: 120px;
 }
 .logo img {
     width: 200px;
+}
+
+
+#check_menu {
+    display: none;
+    margin-left: auto;
+}
+    
+.burger_box label {
+    position: absolute;
+    font-size: 2rem;
+    line-height: inherit;
+}
+    
+.burger_box li {
+    background-color: #fff;
+    overflow: hidden;
+}
+    
+.burger_box a {
+    padding-left: 0px;
+    font-size: inherit;
+}
+    
+.burger_box {
+    margin-left: auto;
+    width: 100px;
+    position: relative;
+}
+    
+.burger_box ul {
+    font-size: 0px;
+    height: 0;
+    top: 40px;
+    position: absolute;
+    padding: 0;
+}
+
+#check_menu:checked > ul {
+    display: block;
+    font-size: 1rem;
+    max-height: 500px;
 }
 }
 
@@ -154,6 +195,10 @@ Header
 
 .header li:hover ul {
     display: block;
+}
+
+.burger_box {
+    display: none;
 }
 }
 

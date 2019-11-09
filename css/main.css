@@ -69,12 +69,55 @@ Header
 .header > ul {
     display: none;
 }
+
 .logo {
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 20px;
 }
+
 .logo img {
     width: 200px;
+}
+
+#check_menu {
+    display: none;
+    margin-left: auto;
+}
+    
+.burger_box label {
+    position: absolute;
+    font-size: 2rem;
+    line-height: inherit;
+}
+    
+.burger_box li {
+    background-color: #fff;
+    overflow: hidden;
+}
+    
+.burger_box a {
+    padding-left: 0px;
+    font-size: inherit;
+}
+    
+.burger_box {
+    margin-left: auto;
+    width: 100px;
+    position: relative;
+}
+    
+.burger_box ul {
+    font-size: 0px;
+    height: 0;
+    top: 40px;
+    position: absolute;
+    padding: 0;
+}
+
+#check_menu:checked > ul {
+    display: block;
+    font-size: 1rem;
+    max-height: 500px;
 }
 }
 
@@ -85,6 +128,13 @@ Header
 
 .header {
     justify-content: flex-end;
+}
+
+.header > ul {
+    display: flex;
+
+    margin: 0;
+    list-style: none;
 }
 
 .logo img { 
@@ -101,21 +151,12 @@ Header
     transition: all 0.5s ease;
 }
 
-.header ul {
-    list-style: none;
-}
-
 .header > ul li a {
     display: block;
 }
 
 .header li {
     display: block;
-}
-
-.header ul {
-    display: flex;
-    margin: 0;
 }
 
 .header li a:hover {
@@ -154,6 +195,10 @@ Header
 
 .header li:hover ul {
     display: block;
+}
+
+.burger_box {
+    display: none;
 }
 }
 
