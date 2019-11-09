@@ -156,3 +156,363 @@ Header
     display: block;
 }
 }
+
+
+/*Posts*/
+
+.main_post h5 {
+    color: #ccc;
+}
+
+.main_post_content {
+    margin: 0 7.5%;
+}
+
+@media screen and (min-width: 0px ) {
+.comment {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.main_photo {
+    width: 100%;
+    margin: 0;
+}
+
+.last_posts {
+    margin: 0 7.5%;
+    justify-content: space-between;
+}
+}
+
+@media screen and (min-width: 1000px ) {
+.comment {
+    margin: 50px 0;
+}
+
+.main_photo {
+    margin-bottom: 50px;
+}
+
+.last_posts {
+    display: flex;
+}
+}
+
+
+/*content*/
+
+
+@media screen and (min-width: 0px) {
+.content {
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.content {
+    padding-right: 5%;
+    width: 75%;
+}
+}
+
+.quote {
+    color: #5c5c5c;
+    font-style: oblique;
+    font-size: 1.4em;
+}
+
+.content img {
+    width: 100%;
+    margin: 40px 0;
+}
+
+.content h5 {
+    margin-top: 0px;
+    font-weight: 200;
+}
+
+
+/*flesh*/
+
+
+@media screen and (min-width: 0px) {
+.flesh {
+    display: none;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.flesh {
+    display: block;
+    width: 25%;
+}
+
+.flesh .f_share {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flesh .f_share a {
+    margin-right: 16px;
+    color: #b8b5ae;
+    font-size: 1.2rem;
+}
+
+.flesh img {
+    margin-bottom: 8px;
+}
+
+.flesh h3 {
+    margin: 16px 0;
+    color: #555;
+}
+
+.top_posts h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    height: 10px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.top_posts ul li h5 {
+    color: #555;
+}
+
+.top_posts .comments {
+    height: 6px;
+    color: #ccc;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.top_posts ul {
+    margin-bottom: 62px;
+}
+}
+
+
+/*more*/
+
+
+.anoser_posts {
+    display: flex;
+    margin: 0 0 40px 0;
+}
+
+.anoser_post {
+    width: 33.3%;
+}
+
+.anoser_post img{
+    width: 90%;
+}
+
+@media screen and (min-width: 0px) {
+.anoser_post h3 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #5d5d5d;
+}
+
+.like {
+    margin-bottom: 40px;
+}
+
+
+.more {
+    width: 100%;
+    margin: 0 auto;
+    height: 275px;
+    background-color: #f3f3f3;
+    padding: 0;
+    padding-top: 10px;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.anoser_post h3 {
+    color: #5d5d5d;
+}
+
+.like {
+    margin-top: 64px;
+}
+
+
+.more {
+    height: 500px;
+    padding: 0;
+    padding-top: 50px;
+}
+}
+
+.like h5 {
+    color: #555;
+}
+
+
+/*rewiews*/
+
+@media screen and (min-width: 0px) {
+.rewiew {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.rewiews_footer {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.rewiew {
+    margin-bottom: 90px;
+}
+
+.rewiews_footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+    width: 930px;
+}
+}
+
+.rewiews_text {
+    display: flex;
+}
+
+.rewiews_text h5 {
+    margin: 64px 0 40px 0;
+}
+
+.old_rewiew {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 36px;
+    margin-top: 20px;
+}
+
+.rewiew p {
+    max-width: 760px;
+}
+
+.rewiew input {
+    width: 790px;
+    height: 70px;
+    padding-left: 32px;
+    border-radius: 4px;
+    border: 1px, #cecece, solid;
+}
+
+.new_rewiew {
+    margin-right: 36px;
+    margin-top: 0;
+}
+
+.rewiews_footer a {
+    height: 14px;
+    margin-left: 15px;
+    color: #cecece;
+}
+
+
+/*share*/
+
+
+.share {
+    margin: 64px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.share a {
+    margin-left: 16px;
+    color: #b8b5ae;
+    font-size: 1.2em;
+}
+
+
+/*footer*/
+
+
+.footer {
+    height: 100px;
+    background-color: #f3f3f3;
+}
+
+.footer .content {
+    width: 75%;
+    height: 100px;
+    margin: 0 12.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 0px) {
+.left_footer_content {
+    margin-top: 41px;
+    margin-bottom: 41px;
+    color: #555;
+    width: 200px;
+}
+
+.rewiews_footer {
+    width: 100%;
+}
+
+.right_footer_content {
+    color: #777;
+    width: 100px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+.footer .content {
+    width: 90%;
+    height: 100px;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+@media screen and (min-width: 1000px) {
+.left_footer_content {
+    width: 230px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_footer_content {
+    width: 160px;
+    margin-top: 41px;
+    margin-bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewiews_footer {
+    width: 930px;
+}
+
+.footer .content {
+    width: 75%;
+    height: 100px;
+    margin: 0 12.5%;
+}
+}
+
+.footer a {
+    font-size: 1rem;
+}

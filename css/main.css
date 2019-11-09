@@ -344,14 +344,6 @@ Footer
     background-color: #f3f3f3;
 }
 
-.footer .content {
-    width: 75%;
-    height: 100px;
-    margin: 0 12.5%;
-    display: flex;
-    justify-content: space-between;
-}
-
 @media screen and (min-width: 0px) {
 .left_footer_content {
     margin-top: 41px;
@@ -368,9 +360,9 @@ Footer
 }
 
 .footer .content {
-    width: 90%;
+    width: 80%;
     height: 100px;
-    margin: 0 5%;
+    margin: 0 10%;
     display: flex;
     justify-content: space-between;
 }
