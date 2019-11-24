@@ -1,14 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Playfair Display', serif;
-    margin: 0px;
     position: relative;
     font-size: 14px;
 }
-@media screen and (min-width: 0px) {
+
 .page {
-    width: 440px;
     margin: 0 auto;
-}
 }
 
 @media screen and (min-width: 1000px) {
@@ -78,12 +81,12 @@ Header
 .logo img {
     width: 200px;
 }
-
+/*
 #check_menu {
     display: none;
     margin-left: auto;
 }
-    
+
 .burger_box label {
     position: absolute;
     font-size: 2rem;
@@ -119,6 +122,7 @@ Header
     font-size: 1rem;
     max-height: 500px;
 }
+*/
 }
 
 @media screen and (min-width: 1000px ) {
@@ -278,7 +282,7 @@ Posts
         outline: none;
         margin-left: 17.5%;
         margin-bottom: 75px;
-        width: 300px;
+        width: 250px;
         height: 120px;
         font-size: 3rem;
         background-color: rgba(0, 0, 0, 0%);

@@ -4,11 +4,9 @@ body {
     position: relative;
     font-size: 14px;
 }
-@media screen and (min-width: 0px) {
+
 .page {
-    width: 440px;
     margin: 0 auto;
-}
 }
 
 @media screen and (min-width: 1000px) {
@@ -409,6 +407,14 @@ Header
     margin-bottom: 10px;
 }
 
+.rewiew input {
+    width: 60%px;
+    height: 70px;
+    padding-left: 32px;
+    border-radius: 4px;
+    border: 1px, #cecece, solid;
+}
+
 .rewiews_footer {
     display: flex;
     align-items: baseline;
@@ -452,10 +458,6 @@ Header
 
 .rewiew input {
     width: 790px;
-    height: 70px;
-    padding-left: 32px;
-    border-radius: 4px;
-    border: 1px, #cecece, solid;
 }
 
 .new_rewiew {
