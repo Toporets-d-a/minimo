@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 640px) {
 .page {
     width: 1060px;
 }
@@ -117,7 +117,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 640px ) {
 .logo {
     margin-right: 285px;
 }
@@ -228,7 +228,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 640px ) {
 .comment {
     margin: 50px 0;
 }
@@ -252,7 +252,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
 .content {
     padding-right: 5%;
     width: 75%;
@@ -285,7 +285,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 760px) {
 .flesh {
     display: block;
     width: 25%;
@@ -377,7 +377,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 640px) {
 .anoser_post h3 {
     color: #5d5d5d;
 }
@@ -401,38 +401,49 @@ Header
 
 /*rewiews*/
 
-@media screen and (min-width: 0px) {
+
 .rewiew {
     display: flex;
     margin-bottom: 10px;
 }
 
 .rewiew input {
-    width: 60%px;
+    width: 90%;
     height: 70px;
     padding-left: 32px;
     border-radius: 4px;
-    border: 1px, #cecece, solid;
+    margin-right: 15px;;
 }
 
 .rewiews_footer {
+    margin-left: 10px;
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
     width: 100%;
 }
-}
 
-@media screen and (min-width: 1000px) {
-.rewiew {
-    margin-bottom: 90px;
+
+@media screen and (min-width: 640px) {
+    .rewiew {
+        margin-bottom: 90px;
 }
 
 .rewiews_footer {
+    margin-left: 0;
     display: flex;
     justify-content: flex-end;
     margin-bottom: 100px;
     width: 930px;
+}
+
+.rewiew input {
+    margin-right: 0;
+    max-width: 790px;
+}
+
+.rewiew p {
+    margin-right: 0;
 }
 }
 
@@ -454,10 +465,7 @@ Header
 
 .rewiew p {
     max-width: 760px;
-}
-
-.rewiew input {
-    width: 790px;
+    margin-right: 15px;
 }
 
 .new_rewiew {
@@ -475,16 +483,26 @@ Header
 /*share*/
 
 
+.share{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.share a{
+    color: #b8b5ae;
+    font-size: 1.2em;
+}
+
+@media screen and (min-width:640px) {
 .share {
     margin: 64px 0;
-    display: flex;
     justify-content: flex-end;
 }
 
 .share a {
     margin-left: 16px;
-    color: #b8b5ae;
-    font-size: 1.2em;
+}
 }
 
 
@@ -532,7 +550,7 @@ Header
 }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 640px) {
 .left_footer_content {
     width: 230px;
     margin-top: 41px;

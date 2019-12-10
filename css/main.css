@@ -125,13 +125,10 @@ Header
 */
 }
 
-@media screen and (min-width: 1000px ) {
-.logo {
-    margin-right: 285px;
-}
+@media screen and (min-width: 640px ) {
 
 .header {
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .header > ul {
@@ -221,6 +218,11 @@ Posts
     margin: 0 7.5%;
 }
 
+.button-pst {
+    margin: 0 7.5%, 75px, 7.5%;
+    margin-bottom: 75px;
+}
+
 @media screen and (min-width: 0px ) {
 .comment {
     margin-top: 50px;
@@ -238,7 +240,7 @@ Posts
 }
 }
 
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 640px ) {
 .comment {
     margin: 50px 0;
 }
@@ -261,6 +263,11 @@ Posts
         padding-bottom: 125px;
     }
 
+    .button-pst {
+        display: flex;
+        justify-content: center;
+    }
+
     .post {
         width: 100%;
     }
@@ -280,8 +287,6 @@ Posts
 
     .posts_button {
         outline: none;
-        margin-left: 17.5%;
-        margin-bottom: 75px;
         width: 250px;
         height: 120px;
         font-size: 3rem;
@@ -293,23 +298,24 @@ Posts
     }
 }
 
-@media screen and (min-width: 1000px ) {
+@media screen and (min-width: 640px ) {
 .posts {
     height: 1100px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 7.5%;
     margin-top: 100px;
     padding-bottom: 125px;
 }
 
 .post {
-    float: left;
-    width: 50%;
+ width: 48%;
 }
 
 .post img {
-    width: 420px;
-    height: 280px;
+    width: 100%;
+    max-height: 280px;
 }
 
 .post p {
@@ -323,9 +329,9 @@ Posts
 }
 
 .posts_button {
-    margin: auto 42.5%;
+    margin: auto 38%;
     margin-bottom: 75px;
-    width: 16%;
+    width: 150px;
     height: 60px;
     font-size: 1.5rem;
 }
@@ -417,7 +423,7 @@ Footer
 }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 640px) {
 .left_footer_content {
     width: 230px;
     margin-top: 41px;
