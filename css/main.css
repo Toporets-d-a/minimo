@@ -66,7 +66,7 @@ Header
 @media screen and (min-width: 0px ) {
 .header {
     display: flex;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .header > ul {
@@ -79,7 +79,7 @@ Header
 }
 
 .logo img {
-    width: 200px;
+    width: 140px;
 }
 /*
 #check_menu {
@@ -216,6 +216,7 @@ Posts
 
 .main_post_content {
     margin: 0 7.5%;
+    margin-top: 30px;
 }
 
 .button-pst {
@@ -225,13 +226,12 @@ Posts
 
 @media screen and (min-width: 0px ) {
 .comment {
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .main_post img {
     width: 100%;
-    margin: 0;
 }
 
 .last_posts {
@@ -254,48 +254,47 @@ Posts
 }
 }
 
-@media screen and (min-width: 0px ) {
-    .posts {
-        height: 2100px;
-        display: block;
-        margin: 0 7.5%;
-        margin-top: 100px;
-        padding-bottom: 125px;
-    }
+.posts {
+    height: 1950px;
+    display: block;
+    margin: 0 7.5%;
+    margin-top: 100px;
+    padding-bottom: 125px;
+}
 
-    .button-pst {
-        display: flex;
-        justify-content: center;
-    }
+.button-pst {
+    display: flex;
+    justify-content: center;
+}
 
-    .post {
-        width: 100%;
-    }
-
-    .post img {
+.post {
     width: 100%;
-    }
+}
 
-    .post p {
-        margin-bottom: 100px;
-    }
+.post img {
+width: 100%;
+margin-bottom: 15px;
+}
 
-    .post a {
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
+.post p {
+    margin-bottom: 75px;
+}
 
-    .posts_button {
-        outline: none;
-        width: 250px;
-        height: 120px;
-        font-size: 3rem;
-        background-color: rgba(0, 0, 0, 0%);
-        color: #5d5d5d;
-        border: 1px solid #5d5d5d;
-        cursor: pointer;
-        font-family: inherit;
-    }
+.post a {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.posts_button {
+    outline: none;
+    width: 175px;
+    height: 75px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0%);
+    color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 @media screen and (min-width: 640px ) {
@@ -306,7 +305,6 @@ Posts
     flex-wrap: wrap;
     margin: 0 7.5%;
     margin-top: 100px;
-    padding-bottom: 125px;
 }
 
 .post {
@@ -329,11 +327,12 @@ Posts
 }
 
 .posts_button {
+    font-size: 3rem;
     margin: auto 38%;
     margin-bottom: 75px;
-    width: 150px;
-    height: 60px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 80px;
+    font-size: 2rem;
 }
 }
 
@@ -367,7 +366,7 @@ Signup
     outline: none;
     font-size: 1.2rem;
     height: 40px;
-    width: 400px;
+    width: 200px;
     background-color: rgba(0, 0, 0, 0%);
     border: none;
     padding-left: 5px;
@@ -383,10 +382,21 @@ Signup
 
 .signing {
     display: flex;
+    margin: 0 auto;
     border-bottom: 1px solid black;
+    max-width: 250px;
+}
+
+@media screen and (min-width: 640px ) {
+
+.signing {
     max-width: 400px;
 }
 
+.sign_in {
+    width: 400px;
+}
+}
 
 /*
 
@@ -395,23 +405,22 @@ Footer
 */
 
 .footer {
-    height: 100px;
+    height: 110px;
     background-color: #f3f3f3;
 }
 
-@media screen and (min-width: 0px) {
 .left_footer_content {
-    margin-top: 41px;
-    margin-bottom: 41px;
+    margin: 0 auto;
     color: #555;
     width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .right_footer_content {
+    margin: 0 auto;
     color: #777;
     width: 100px;
-    margin-top: 41px;
-    margin-bottom: 41px;
 }
 
 .footer .content {
@@ -419,21 +428,34 @@ Footer
     height: 100px;
     margin: 0 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.right_footer_content {
+    margin-top: 10px;
+}
+
+.footer a {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 640px) {
 .left_footer_content {
     width: 230px;
+    margin: 0;
     margin-top: 41px;
     margin-bottom: 41px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .right_footer_content {
     width: 160px;
+    margin: 0;
     margin-top: 41px;
     margin-bottom: 41px;
     display: flex;
@@ -444,9 +466,16 @@ Footer
     width: 75%;
     height: 100px;
     margin: 0 12.5%;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.footer {
+    height: 100px;
 }
 
 .footer a {
-    font-size: 1rem;
+    text-align: start;
+    margin: 0;
+}
 }
